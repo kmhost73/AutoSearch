@@ -1,0 +1,19 @@
+2025-07-27 15:37:07,111 - INFO - Running AutoSearch export to Google Sheets
+2025-07-27 15:40:17,490 - INFO - Running AutoSearch export to Google Sheets
+2025-07-27 15:48:31,648 - INFO - Running AutoSearch export to Google Sheets
+2025-07-27 15:48:32,152 - ERROR - ❌ Failed to push data to Google Sheets: SMTP test failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-719f21ae9c9sm9672627b3.31 - gsmtp')
+2025-07-27 15:54:51,089 - INFO - Running AutoSearch export to Google Sheets
+2025-07-27 15:54:51,586 - ERROR - ❌ Failed to push data to Google Sheets: SMTP test failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-719f23b1372sm9740667b3.66 - gsmtp')
+2025-07-27 15:55:45,085 - INFO - Running AutoSearch export to Google Sheets
+2025-07-27 15:55:45,555 - ERROR - ❌ Failed to push data to Google Sheets: SMTP test failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-719f21ac663sm9466947b3.28 - gsmtp')
+2025-07-27 16:02:29,439 - INFO - Running AutoSearch export to Google Sheets
+2025-07-27 16:02:29,954 - ERROR - ❌ Failed to push data to Google Sheets: SMTP test failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 3f1490d57ef6-e8df871bab0sm1562466276.45 - gsmtp')
+2025-07-27 16:08:51,823 - INFO - Running AutoSearch export to Google Sheets
+2025-07-27 16:08:52,356 - ERROR - ❌ Failed to push data to Google Sheets: SMTP test failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-719f23abf8dsm9760487b3.47 - gsmtp')
+2025-07-27 16:09:43,346 - INFO - Running AutoSearch export to Google Sheets
+2025-07-27 16:09:43,346 - INFO - Found 2 listings. Uploading to Google Sheets...
+2025-07-27 16:09:45,586 - INFO - ✅ Listings pushed to Google Sheets successfully.
+2025-07-27 17:27:19,917 - INFO - Running AutoSearch export to Google Sheets
+2025-07-27 17:27:34,811 - WARNING - ⚠️ No listings found from any source.
+2025-07-27 17:32:46,941 - INFO - Running AutoSearch export to Google Sheets
+2025-07-27 17:33:01,325 - WARNING - ⚠️ No listings found from any source.

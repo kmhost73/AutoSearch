@@ -1,0 +1,74 @@
+2025-07-28 07:45:49,126 - INFO - Running AutoSearch export to Google Sheets
+2025-07-28 07:46:03,707 - WARNING - ⚠️ No listings found from any source.
+2025-07-28 08:00:54,259 - INFO - Running AutoSearch export to Google Sheets
+2025-07-28 08:01:10,245 - WARNING - ⚠️ No listings found from any source.
+2025-07-28 09:41:24,612 - INFO - Running AutoSearch export to Google Sheets
+2025-07-28 09:41:24,612 - INFO - ====== WebDriver manager ======
+2025-07-28 09:41:26,961 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 09:41:27,087 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 09:41:27,171 - INFO - There is no [win64] chromedriver "138.0.7204.168" for browser google-chrome "138.0.7204" in cache
+2025-07-28 09:41:27,172 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 09:41:27,430 - INFO - WebDriver version 138.0.7204.168 selected
+2025-07-28 09:41:27,434 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.168/win32/chromedriver-win32.zip
+2025-07-28 09:41:27,435 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.168/win32/chromedriver-win32.zip
+2025-07-28 09:41:27,578 - INFO - Driver downloading response is 200
+2025-07-28 09:41:27,975 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 09:41:29,239 - INFO - Driver has been saved in cache [C:\Users\kpmcq\.wdm\drivers\chromedriver\win64\138.0.7204.168]
+2025-07-28 09:41:30,015 - INFO - patching driver executable C:\Users\kpmcq\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-28 09:41:32,317 - ERROR - ❌ Failed to push data to Google Sheets: scrape_dealstream() takes 0 positional arguments but 1 was given
+2025-07-28 09:46:08,048 - INFO - Running AutoSearch export to Google Sheets
+2025-07-28 09:46:08,048 - INFO - ====== WebDriver manager ======
+2025-07-28 09:46:09,243 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 09:46:09,350 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 09:46:09,439 - INFO - Driver [C:\Users\kpmcq\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-28 09:46:10,242 - INFO - patching driver executable C:\Users\kpmcq\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-28 09:46:12,481 - ERROR - ❌ Failed to push data to Google Sheets: scrape_dealstream() takes 0 positional arguments but 1 was given
+2025-07-28 10:21:51,230 - INFO - Running AutoSearch export to Google Sheets
+2025-07-28 10:21:51,230 - INFO - ====== WebDriver manager ======
+2025-07-28 10:21:52,465 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 10:21:52,543 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 10:21:52,619 - INFO - Driver [C:\Users\kpmcq\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-28 10:21:53,372 - INFO - patching driver executable C:\Users\kpmcq\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-28 10:21:55,171 - ERROR - ❌ Failed to push data to Google Sheets: scrape_dealstream() takes 0 positional arguments but 1 was given
+2025-07-28 10:30:58,258 - INFO - Running AutoSearch export to Google Sheets
+2025-07-28 10:30:58,258 - INFO - ====== WebDriver manager ======
+2025-07-28 10:30:59,457 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 10:30:59,543 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 10:30:59,634 - INFO - Driver [C:\Users\kpmcq\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-28 10:31:00,389 - INFO - patching driver executable C:\Users\kpmcq\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-28 10:31:12,955 - ERROR - ❌ Failed to push data to Google Sheets: scrape_globalbx() takes 0 positional arguments but 1 was given
+2025-07-28 11:04:00,636 - INFO - Running AutoSearch export to Google Sheets
+2025-07-28 11:04:00,637 - INFO - ====== WebDriver manager ======
+2025-07-28 11:04:02,936 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 11:04:03,097 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 11:04:03,193 - INFO - Driver [C:\Users\kpmcq\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-28 11:04:03,967 - INFO - patching driver executable C:\Users\kpmcq\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-28 11:04:21,195 - ERROR - ❌ Failed to push data to Google Sheets: scrape_globalbx() takes 0 positional arguments but 1 was given
+2025-07-28 11:09:10,053 - INFO - Running AutoSearch export to Google Sheets
+2025-07-28 11:09:10,053 - INFO - ====== WebDriver manager ======
+2025-07-28 11:09:11,265 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 11:09:11,341 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 11:09:11,419 - INFO - Driver [C:\Users\kpmcq\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-28 11:09:12,153 - INFO - patching driver executable C:\Users\kpmcq\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-28 11:09:41,562 - ERROR - ❌ Failed to push data to Google Sheets: scrape_bizquest() takes 0 positional arguments but 1 was given
+2025-07-28 11:25:15,662 - INFO - Running AutoSearch export to Google Sheets
+2025-07-28 11:25:15,662 - INFO - ====== WebDriver manager ======
+2025-07-28 11:25:16,863 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 11:25:16,958 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 11:25:17,066 - INFO - Driver [C:\Users\kpmcq\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-28 11:25:17,886 - INFO - patching driver executable C:\Users\kpmcq\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-28 11:27:49,963 - ERROR - ❌ Failed to push data to Google Sheets: HTTPConnectionPool(host='localhost', port=55276): Read timed out. (read timeout=120)
+2025-07-28 11:46:39,109 - INFO - Running AutoSearch export to Google Sheets
+2025-07-28 11:46:39,109 - INFO - ====== WebDriver manager ======
+2025-07-28 11:46:40,317 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 11:46:40,411 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 11:46:40,512 - INFO - Driver [C:\Users\kpmcq\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-28 11:46:41,337 - INFO - patching driver executable C:\Users\kpmcq\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-28 11:49:04,758 - ERROR - ❌ Failed to push data to Google Sheets: HTTPConnectionPool(host='localhost', port=58940): Read timed out. (read timeout=120)
+2025-07-28 13:56:36,436 - INFO - Running AutoSearch export to Google Sheets
+2025-07-28 13:56:36,436 - INFO - ====== WebDriver manager ======
+2025-07-28 13:56:37,715 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 13:56:37,848 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 13:56:37,942 - INFO - Driver [C:\Users\kpmcq\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-28 13:56:38,704 - INFO - patching driver executable C:\Users\kpmcq\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-28 13:59:13,971 - ERROR - ❌ Failed to push data to Google Sheets: HTTPConnectionPool(host='localhost', port=64428): Read timed out. (read timeout=120)
