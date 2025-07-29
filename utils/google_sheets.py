@@ -1,6 +1,8 @@
 import os
-import gspread
+import time
+import logging
 from google.oauth2.service_account import Credentials
+from googleapiclient.discovery import build
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -8,25 +10,45 @@ load_dotenv()
 def push_to_google_sheets(data):
     try:
         credentials_path = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
-        if not credentials_path:
-            raise ValueError("Missing GOOGLE_APPLICATION_CREDENTIALS in .env")
-
-        scopes = ['https://www.googleapis.com/auth/spreadsheets']
-        creds = Credentials.from_service_account_file(credentials_path, scopes=scopes)
-        client = gspread.authorize(creds)
-
         spreadsheet_id = os.getenv("GOOGLE_SHEET_ID")
-        sheet = client.open_by_key(spreadsheet_id).sheet1
 
-        # Prepare the data
+        if not credentials_path or not os.path.exists(credentials_path):
+            raise FileNotFoundError("Service account credentials.json missing")
+
+        creds = Credentials.from_service_account_file(
+            credentials_path,
+            scopes=["https://www.googleapis.com/auth/spreadsheets"]
+        )
+        service = build("sheets", "v4", credentials=creds)
+        sheet = service.spreadsheets()
+
         headers = list(data[0].keys())
         values = [[row.get(col, "") for col in headers] for row in data]
+        body = { "values": [headers] + values }
 
-        # Clear the sheet and do a bulk update
-        sheet.clear()
-        sheet.update('A1', [headers] + values)
+        # Clear sheet
+        sheet.values().clear(
+            spreadsheetId=spreadsheet_id,
+            range="Sheet1"
+        ).execute()
+
+        # Push with retry logic
+        for attempt in range(3):
+            try:
+                sheet.values().update(
+                    spreadsheetId=spreadsheet_id,
+                    range="Sheet1!A1",
+                    valueInputOption="RAW",
+                    body=body
+                ).execute()
+                logging.info("✅ Successfully pushed to Google Sheets.")
+                break
+            except Exception as e:
+                logging.warning(f"Retry {attempt+1}: {e}")
+                time.sleep(2 ** attempt)
+        else:
+            raise RuntimeError("❌ Final push to Sheets failed.")
 
     except Exception as e:
-        import logging
-        logging.error(f"Failed to push data to Google Sheets: {e}")
+        logging.error(f"Fatal error in push_to_google_sheets: {e}")
         raise
