@@ -72,3 +72,62 @@
 2025-07-28 13:56:37,942 - INFO - Driver [C:\Users\kpmcq\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
 2025-07-28 13:56:38,704 - INFO - patching driver executable C:\Users\kpmcq\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
 2025-07-28 13:59:13,971 - ERROR - ❌ Failed to push data to Google Sheets: HTTPConnectionPool(host='localhost', port=64428): Read timed out. (read timeout=120)
+2025-07-28 15:27:07,024 - INFO - Running AutoSearch export to Google Sheets
+2025-07-28 15:27:07,025 - INFO - ====== WebDriver manager ======
+2025-07-28 15:27:07,888 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 15:27:07,997 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 15:27:08,072 - INFO - Driver [C:\Users\kpmcq\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-28 15:27:08,799 - INFO - patching driver executable C:\Users\kpmcq\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-28 15:29:36,591 - ERROR - ❌ Failed to push data to Google Sheets: HTTPConnectionPool(host='localhost', port=63657): Read timed out. (read timeout=120)
+2025-07-28 15:32:30,066 - INFO - Running AutoSearch export to Google Sheets
+2025-07-28 15:32:30,067 - INFO - ====== WebDriver manager ======
+2025-07-28 15:32:30,875 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 15:32:30,971 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 15:32:31,068 - INFO - Driver [C:\Users\kpmcq\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-28 15:32:31,791 - INFO - patching driver executable C:\Users\kpmcq\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-28 15:34:46,857 - INFO - Running AutoSearch export to Google Sheets
+2025-07-28 15:34:46,857 - INFO - ====== WebDriver manager ======
+2025-07-28 15:34:47,677 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 15:34:47,766 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 15:34:47,870 - INFO - Driver [C:\Users\kpmcq\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-28 15:34:48,596 - INFO - patching driver executable C:\Users\kpmcq\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-28 15:37:36,542 - ERROR - ❌ Failed to push data to Google Sheets: HTTPConnectionPool(host='localhost', port=65165): Read timed out. (read timeout=120)
+2025-07-28 15:44:56,451 - INFO - Running AutoSearch export to Google Sheets
+2025-07-28 15:44:56,452 - INFO - ====== WebDriver manager ======
+2025-07-28 15:44:57,265 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 15:44:57,358 - INFO - Get LATEST chromedriver version for google-chrome
+2025-07-28 15:44:57,452 - INFO - Driver [C:\Users\kpmcq\.wdm\drivers\chromedriver\win64\138.0.7204.168\chromedriver-win32/chromedriver.exe] found in cache
+2025-07-28 15:44:58,185 - INFO - patching driver executable C:\Users\kpmcq\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-07-28 15:46:07,228 - ERROR - ❌ Failed to push data to Google Sheets: Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=138.0.7204.169)
+Stacktrace:
+	GetHandleVerifier [0x0x561af3+62339]
+	GetHandleVerifier [0x0x561b34+62404]
+	(No symbol) [0x0x3a2123]
+	(No symbol) [0x0x39f85b]
+	(No symbol) [0x0x3930d2]
+	(No symbol) [0x0x394b05]
+	(No symbol) [0x0x393368]
+	(No symbol) [0x0x392ea3]
+	(No symbol) [0x0x392bb1]
+	(No symbol) [0x0x390b54]
+	(No symbol) [0x0x3914fb]
+	(No symbol) [0x0x3a5b4e]
+	(No symbol) [0x0x431367]
+	(No symbol) [0x0x40f3bc]
+	(No symbol) [0x0x4307a3]
+	(No symbol) [0x0x40f1b6]
+	(No symbol) [0x0x3de7a2]
+	(No symbol) [0x0x3df644]
+	GetHandleVerifier [0x0x7d6683+2637587]
+	GetHandleVerifier [0x0x7d1a8a+2618138]
+	GetHandleVerifier [0x0x58856a+220666]
+	GetHandleVerifier [0x0x578998+156200]
+	GetHandleVerifier [0x0x57f12d+182717]
+	GetHandleVerifier [0x0x569a38+94920]
+	GetHandleVerifier [0x0x569bc2+95314]
+	GetHandleVerifier [0x0x554d0a+9626]
+	BaseThreadInitThunk [0x0x753a5d49+25]
+	RtlInitializeExceptionChain [0x0x76edd2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x76edd281+561]
+

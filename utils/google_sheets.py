@@ -1,5 +1,3 @@
-# utils/google_sheets.py
-
 import os
 import gspread
 from google.oauth2.service_account import Credentials
@@ -20,11 +18,14 @@ def push_to_google_sheets(data):
         spreadsheet_id = os.getenv("GOOGLE_SHEET_ID")
         sheet = client.open_by_key(spreadsheet_id).sheet1
 
+        # Prepare the data
         headers = list(data[0].keys())
+        values = [[row.get(col, "") for col in headers] for row in data]
+
+        # Clear the sheet and do a bulk update
         sheet.clear()
-        sheet.append_row(headers)
-        for row in data:
-            sheet.append_row([row.get(col, "") for col in headers])
+        sheet.update('A1', [headers] + values)
+
     except Exception as e:
         import logging
         logging.error(f"Failed to push data to Google Sheets: {e}")
